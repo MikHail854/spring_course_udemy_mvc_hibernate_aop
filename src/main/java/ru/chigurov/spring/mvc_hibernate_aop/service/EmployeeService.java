@@ -1,9 +1,9 @@
-package ru.chigurov.spring.mvc_hibernate_aop.dao;
+package ru.chigurov.spring.mvc_hibernate_aop.service;
 
 import ru.chigurov.spring.mvc_hibernate_aop.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
     public List<Employee> getAllEmployees();
 }
